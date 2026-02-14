@@ -27,6 +27,9 @@ const userSchema = new mongoose.Schema({
         type: Date,
         default: Date.now,
     },
+    profilePictureUrl: {
+        type: String,
+    },
     refreshToken: {
         type: String,
     },
